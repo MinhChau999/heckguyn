@@ -1,45 +1,7 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-
-# testing
-/coverage
-
-# nest
-/dist
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-
 # compiled output
 /dist
 /node_modules
+/build
 
 # Logs
 logs
@@ -65,25 +27,30 @@ lerna-debug.log*
 *.launch
 .settings/
 *.sublime-workspace
+
+# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# Environment
+# dotenv environment variable files
 .env
-.env.*
-!.env.example
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 
-# Package manager
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# temp directory
+.temp
+.tmp
 
-# Build
-/build
-/dist
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# TypeScript
-*.tsbuildinfo
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
