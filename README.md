@@ -1,6 +1,6 @@
 # Turborepo starter
 
-This Turborepo starter is maintained by the Turborepo core team.
+This is a customized Turborepo starter template with Nest.js API.
 
 ## Using this example
 
@@ -16,9 +16,8 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
+- `web`: a [Next.js](https://nextjs.org/) app
+- `api`: a [Nest.js](https://nestjs.com/) API service
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
@@ -82,3 +81,8 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
 - [Configuration Options](https://turborepo.com/docs/reference/configuration)
 - [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
+
+Learn more about Nest.js:
+- [Documentation](https://docs.nestjs.com)
+- [GitHub](https://github.com/nestjs/nest)
+- [Discord](https://discord.gg/nestjs)
