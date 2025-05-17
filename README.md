@@ -1,5 +1,13 @@
-# Turborepo starter
+# About 
+This is a powerful software and website management platform built with Turborepo and Nest.js. Designed to streamline your development workflow, it provides:
 
+Centralized Management: Easily control multiple applications, services, and websites from a single codebase.
+Scalable Architecture: Leveraging Turborepo's monorepo capabilities for efficient code sharing and dependency management.
+Backend Excellence: A robust Nest.js API for secure, high-performance backend operations.
+Extensible Features: Supports integrations, automation, and custom modules to adapt to diverse needs.
+Ideal for teams seeking speed, consistency, and scalability in their projects.
+
+# Turborepo starter
 This is a customized Turborepo starter template with Nest.js API.
 
 ## Using this example
